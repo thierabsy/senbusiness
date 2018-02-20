@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
 import Header from './ipSection/Header';
-import Slider from './ipSection/Slider';
+import Islider from './ipSection/Islider';
 import Whoweare from './ipSection/Whoweare';
 import Nosservices from './ipSection/Nosservices';
 import Dejainscrites from './ipSection/Dejainscrites';
 import Nospartenaires from './ipSection/Nospartenaires';
 import Temoignages from './ipSection/Temoignages';
 import Video from './ipSection/Video';
-import Contact from './ipSection/Contact';
 import Footer from './ipSection/Footer';
 
 class Indexpage extends Component {
@@ -16,14 +15,13 @@ class Indexpage extends Component {
         return (
             <div className="">
                 <Header/>
-                <Slider/>
+                <Islider/>
                 <Whoweare/>
                 <Nosservices/>
                 <Dejainscrites/>
-                <Nosservices/>
-                <Temoignages/>
                 <Video/>
-                <Contact/>
+                <Temoignages/>
+                <Nospartenaires/>
                 <Footer/>
             </div>
         );

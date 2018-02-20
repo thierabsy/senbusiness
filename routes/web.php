@@ -13,5 +13,6 @@
 
 Route::get('/', function () {
     $myVar = "From Laravel";
-    return view('welcome', compact("myVar", $myVar));
+    // return view('welcome', compact("myVar", $myVar));
+    return view('welcome');
 });

@@ -1,11 +1,13 @@
 import React from 'react';
 
-const fStayTunned = () => {
+const Fcopyright = () => {
         return (
-            <div className="">
-                    Navbar
+            <div className="fcopyright">
+            <div className="wrapperInner">
+                    &copy; Senbusiness {(new Date().getFullYear())} <span></span>***** <span>Site Crédit:</span> <a href="#">SYTEKR</a>
+            </div>
             </div>
         );
     }
 
-export default fStayTunned;
+export default Fcopyright;

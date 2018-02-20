@@ -8,13 +8,10 @@ import HNavbar from './HNavbar';
 class Header extends Component {
     render() {
         return (
-            <div className="">
-                HEADER
-                <div>
-                    H: <HTopBar/>
-                    H: <HTopAnnonce/>
-                    H: <HNavbar/>
-                </div>
+            <div className="Header">
+                <HTopBar/>
+                <HTopAnnonce/>
+                <HNavbar/>
             </div>
         );
     }

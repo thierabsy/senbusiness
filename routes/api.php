@@ -16,3 +16,8 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('data', function () {
+    $data = [2, 5, 8];
+    return response($data, 200);
+});

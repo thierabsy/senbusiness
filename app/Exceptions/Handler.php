@@ -48,6 +48,13 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
+        // HERROR HANDLER
+        {
+            return response()->json([
+                 'message' => 'Resource not found'
+             ], 404);
+        } // FIN
+        
         return parent::render($request, $exception);
     }
 }
